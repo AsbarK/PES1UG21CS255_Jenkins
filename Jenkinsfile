@@ -10,14 +10,14 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './output'
+                sh './outpu'
                 
             }
 
         }
         stage('Deploy') {
             steps {
-                c
+                
                
                 echo 'Deploy'
                 
